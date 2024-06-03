@@ -1,0 +1,73 @@
+@font-face
+{
+    font-family: 'NimbusSanL-Reg';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../landpage/nimbus-sans-l/NimbusSanL-Reg.otf');
+}
+
+@font-face {
+    font-family: 'Mytupi';
+    src: url('../landpage/Mytupi-FontZillion/Fonts/mytupibold.ttf');
+}
+
+.landpage{
+    width: 100%;
+
+}
+
+.landpage-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.left{
+    width: 55%;
+    display: flex;
+    flex-direction: row-reverse ;    
+    align-items: center;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    width: 90%;
+}
+.text{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.red-line{
+    color: #fe3146;
+    font-size: 32px;
+    font-family: 'NimbusSanL-Reg' ;
+    margin-bottom: 15px;
+}
+#contact-us{
+    color: white;
+    background-color: #fe3146;
+    height: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    width: 175px;
+    letter-spacing: 1px;
+}
+.right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+#miss-image{
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+

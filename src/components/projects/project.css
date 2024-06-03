@@ -1,0 +1,97 @@
+@font-face
+{
+    font-family: 'NimbusSanL-Reg';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../landpage/nimbus-sans-l/NimbusSanL-Reg.otf');
+}
+
+@font-face {
+    font-family: 'Mytupi';
+    src: url('../landpage/Mytupi-FontZillion/Fonts/mytupibold.ttf');
+}
+
+.project{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-tagline{
+    font-family: "NimbusSanL-Reg";
+    color: #fe3146;
+    font-size: 21px;
+    margin-bottom: 33px;
+}
+
+.project-heading{
+    font-family: "Mytupi";
+    font-size: 40px;
+}
+
+.project-container{
+    display: flex;
+    margin: 70px auto;
+    gap: 20px;
+}
+
+.project-container-left{
+    flex: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 510px;
+}
+.project-container-left-container{
+    width: 60%;
+}
+
+.project-container-left img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.project-container-right{
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 520px;
+}
+
+.projectList1{
+    background-color: #f7f6f7;
+    width: 35%;
+    padding: 30px;
+    text-align: start;
+}
+.projectList2{
+    background-color: #f7f6f7;
+    width: 35%;
+    padding: 30px;
+    text-align: start;
+}
+.projectList3{
+    background-color: #f7f6f7;
+    width: 35%;
+    padding: 30px;
+    text-align: start;
+}
+
+
+.item-heading{
+    font-family: poppins;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.item-content{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.projectList :active{
+    background-color: #f7f6f7;  
+}

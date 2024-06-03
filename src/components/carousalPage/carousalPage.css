@@ -1,0 +1,10 @@
+.product--image{
+    object-fit: cover;
+    width: 100%;
+    height: 460px;
+    border-radius: 10px;
+}
+
+.react-multi-carousel-track {
+    gap: 15px;
+}
