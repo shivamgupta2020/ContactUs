@@ -23,7 +23,7 @@ function Project() {
                 <div className="project-container">
                     <div className="project-container-left">
                         <div className="project-container-left-container">
-                            <img src={imageShown} alt="" srcset="" />
+                            <img src={imageShown} alt="" srcset="" style={{height:"100%"}}/>
                         </div>
                     </div>
                     <div className="project-container-right">

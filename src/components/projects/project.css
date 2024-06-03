@@ -43,10 +43,11 @@
 }
 .project-container-left-container{
     width: 60%;
+    height: 100%;
 }
 
 .project-container-left img{
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     border-radius: 5px;
 }

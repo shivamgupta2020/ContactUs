@@ -1,0 +1,76 @@
+@font-face
+{
+    font-family: 'NimbusSanL-Reg';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../landpage/nimbus-sans-l/NimbusSanL-Reg.otf');
+}
+
+@font-face {
+    font-family: 'Mytupi';
+    src: url('../landpage/Mytupi-FontZillion/Fonts/mytupibold.ttf');
+}
+.expert{
+    text-align: center;
+    padding: 70px 0;
+    background-color: #fafafa;
+}
+.expert-tagline{
+    font-family: "NimbusSanL-Reg";
+    color: #fe3146;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.expert-heading{
+    font-family: "Mytupi";
+    font-size: 39px;
+    margin-bottom: 60px;
+}
+
+.expert-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    margin: 50px auto;
+    gap: 20px;
+}
+.block-container{
+    flex: 1 1 0;
+}
+
+.block{
+    padding: 30px;
+    height: 180px;
+    background-color: white;
+    transition: box-shadow 0.5s;
+}
+
+.block-container :hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+.block img{
+    object-fit: contain;
+    width: 40px;
+}
+
+.block img:hover{
+    box-shadow: none;
+}
+
+.expert-number{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 50px;
+}
+.expert-number:hover{
+    box-shadow: none;
+}
+
+.expert-text{
+    font-family: poppins;
+    font-size: 18px;
+}
+.expert-text:hover{
+    box-shadow: none;
+}
