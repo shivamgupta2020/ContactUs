@@ -10,8 +10,9 @@
     font-family: 'Mytupi';
     src: url('../landpage/Mytupi-FontZillion/Fonts/mytupibold.ttf');
 }
-.landpage{
+.choose {
     text-align: center;
+    margin-top:70px;
 }
 .choose-tagline{
     font-family: "NimbusSanL-Reg";

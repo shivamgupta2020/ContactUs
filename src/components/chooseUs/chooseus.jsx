@@ -7,7 +7,7 @@ import strategy from "./strategy.webp"
 
 function ChooseUs() {
     return (
-        <div className="landpage">
+        <div className="choose">
             <div className="choose-tagline">WHY CHOOSE US</div>
             <div className="choose-heading"><h1 style={{fontSize:"39px", paddingTop:"7px"}}>WHY WE ARE BEST</h1></div>
             <div className="features">
