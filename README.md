@@ -1,8 +1,8 @@
-# React + Vite
+# Modern Contact Us Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern and dynamic Contact Us page built using React with Vite as the bundler. It features a carousel for showcasing important information, hover overlay cards for interactive content display, and a sleek contact form for easy communication. Whether you're looking to enhance your website's user experience or streamline customer interactions, this Contact Us page provides a contemporary solution.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features:
+1. ### Carousel : Display essential information through a visually appealing slideshow.
+2. ### Hover Overlay Cards: Interactive cards reveal additional details on hover, enhancing user engagement.
+3. ### Contact Form: Simplify communication with a user-friendly form for seamless interaction.
