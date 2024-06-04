@@ -7,17 +7,19 @@ import Project from './components/projects/project'
 import Expert from './components/Expert/expert'
 import Client from './components/client/client'
 import Footer from './components/footer/footer'
+import CarousalPage from './components/carousalPage/carousalPage'
 
 function App() {
 
   return (
     <>
       <Landpage/>
-      <ChooseUs/>
-      <Project/>
-      <Expert/>
-      <Client/>
-      <Footer/>
+      <CarousalPage/>
+        <ChooseUs/>
+        <Project/>
+        <Expert/>
+        <Client/>
+        <Footer/>
     </>
   )
 }
